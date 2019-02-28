@@ -1,8 +1,8 @@
-dj-database-url==0.4.2
-Django==1.11.2
-django-crispy-forms==1.6.1
-gunicorn==19.7.1
-olefile==0.44
-Pillow==4.1.1
-psycopg2==2.7.1
-pytz==2017.2
+dj-database-url==0.5.0
+Django==2.1.7
+django-crispy-forms==1.7.2
+gunicorn==19.9.0
+mysqlclient==1.4.2.post1
+Pillow==5.4.1
+psycopg2==2.7.7
+pytz==2018.9
