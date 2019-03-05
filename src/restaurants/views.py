@@ -5,6 +5,8 @@ from django.http import HttpResponse
 
 #function based view
 def home(request):
-	guy = 'vikram'
-	return HttpResponse(f"Hello {guy} to the world!")
-	# return render(request, "home.html", {})
+	html_var = 'vikram'
+	
+	return render(request, "base.html", {'html_var': html_var})
+
+#class based view
